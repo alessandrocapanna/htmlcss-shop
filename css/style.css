@@ -1,0 +1,63 @@
+/* inizio reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* fine reset */
+
+.blocco {
+  height: 372px;
+  width: 310px;
+}
+.riga {
+  background-color: ;
+  height: 372px;
+  width: 930;
+  position: relative;
+  margin: 10px;
+}
+.ipad {
+  background-image: url(../img/ipad.jpg);
+  position: relative;
+  top:0px;
+}
+.iphone {
+  background-image: url(../img/iphone.jpg);
+  position:absolute;
+  left: 320px;
+  top:0px;
+}
+.cuffie {
+  background-image: url(../img/cuffie.jpg);
+  position:absolute;
+  left: 640px;
+  top: 0px;
+}
+
+.cuore  {
+  position:absolute;
+  color: red;
+  left: 150px;
+  bottom: 25px;
+  display: none;
+  font-size: 18px;
+}
+
+/* inizio sconti*/
+.sconto30{
+  position: absolute;
+  background-color: green;
+  right: 0px;
+
+}
+.sconto5 {
+  position: absolute;
+  background-color: red;
+  right: 0px;
+}
+/* inizio sconti*/
+
+.blocco:hover .cuore {
+  display: inline-block;
+}
